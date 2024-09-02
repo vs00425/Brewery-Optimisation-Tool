@@ -1,7 +1,8 @@
 This is the Pyomo optimisation model for the paper titled "An MINLP-based decision-making tool 
 to help microbreweries improve energy efficiency and reduce carbon footprint through retrofits"
 
-In addition to the modules listed at the start of the main file, you need the following to run:
+In addition to the modules listed at the start of the main file (either "optimisation model" or 
+"optimisation model with linearised cost curves"), you need the following to run:
     Files named "Autumn1.csv", "Spring1.csv", "Summer1.csv" and "Winter1.csv" - contain irradiance data
     A file named "Windspeeddata.csv" - contains wind speed data
     A file named "load_demand.xlsx" - contains the energy loads on the boiler
